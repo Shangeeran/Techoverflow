@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html lang="en" class="js-no ie9"> <![endif]-->
+<!--[if IE 10]>
+<html lang="en" class="js-no ie10"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Welcome to TechOverFlow</title>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Jiri Cermak">
+
+    <!--  Boostrap Framework  -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--=== CSS - Dragonfly ===-->
+    <link href="assets/css/themes/blue.css" rel="stylesheet" id="colors">
+
+    <!--=== LESS - Dragonfly ===-->
+    <!--<link href="assets/less/main.less" rel="stylesheet/less">-->
+
+    <!-- Google Fonts - Lato -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS Animations -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet">
+
+    <!--  Slippry Slideshow -->
+    <link href="assets/css/slippry.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--===    NAVBAR     ===-->
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation" id="navbarSettings">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" style="height: 40px; margin-top: -15px">
+                <span class="icon-bar"></span>
+                Tech<span class="text-primary">Overflow</span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right ">
+
+                <!--Home Pages -->
+                <li class="dropdown">
+                    <a href="index.html" class="dropdown-toggle" data-hover="dropdown"
+                       data-delay="0">Home
+                    </a>
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="sign-in.html" class="dropdown-toggle" data-hover="dropdown"
+                       data-delay="0">Login
+                    </a>
+                </li>
+
+                <!--<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                       data-delay="0">Sign Up
+                    </a>
+                </li>-->
+
+                <li class="dropdown">
+                    <a href="post-idea.html" style="color: white" class="dropdown-toggle btn btn-primary scroll"
+                       data-hover="dropdown"
+                       data-delay="0">
+                        POST YOUR IDEA
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- If navbar is fixed to top and it has the class navbar-default or navbar-inverse this div will add space below the navbar-->
+<div id="navbarSpaceBottom"></div>
+<!--===/END    Navbar     ===-->
+
+
+<!--===    HEADER     ===-->
+<section class="bg-4 bg-centerTop70 bg-cover">
+    <div class="bg-filter sTop">
+        <div class="container">
+            <div class="jumbotron trn v-center">
+                <h1>Tech Overflow</h1>
+                <h1>Create a world of work without limits</h1>
+                <div class="space-sm"></div>
+                <p>Disrupting the world with your crazy ideas</p>
+                <div class="space-sm"></div>
+                <ul class="list-inline">
+                    <li>
+                        <a href="post-idea.html" class="btn btn-default-trn btn-xlg scroll"><i class="fa fa-bolt"></i>
+                        Post Your Idea</a>
+                    </li>
+                    <li>
+                        <a href="#learn-more" class="btn btn-primary btn-xlg scroll">
+                            <i class="fa fa-paper-plane-o"></i>
+                            Browse Ideas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--===/END      HEADER     ===-->
+
+
+<!--===    MAIN WRAP     ===-->
+<!-- Features section -->
+<div id="learn-more"></div>
+<br>
+<br>
+<br>
+<section class="section">
+    <div class="container">
+        <h2 class="big-title text-center">IDEAS</h2>
+        <p class="big-subtitle text-center">Curabitur bibendum justo non orci. Aenean id metus id velit ullamcorper
+            pulvinar. Proin mattis lacinia justo.</p>
+        <div class="space-sm"></div>
+        <div class="row">
+            <div class="hidden-lg hidden-md">
+                <div class="simple-box ">
+
+                    <div class="input-group form-lg " role="search">
+                        <input type="text" class="form-control" placeholder="Find answer">
+                        <span class="input-group-btn">
+            <button class="btn btn-primary" title="Search" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+                    </div>
+
+                </div>
+
+                <div class="categories simple-box">
+                    <h3>Categories</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category Business">Business</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category photos">Photo</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category Education">Education</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category Music">Music</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category Movies">Movies</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw "></i>
+                            <a href="#" title="Category Internet">Internet</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="simple-box">
+                    <h3>Subscribe Us</h3>
+                    <div class="input-group icon">
+                        <div class="control">
+                            <input type="text" class="form-control" placeholder="Email Address">
+                            <i class="fa fa-bullhorn"></i>
+                        </div>
+                        <span class="input-group-btn">
+            <button class="btn btn-primary only-icon " type="button">
+                <i class="fa fa-check"></i>
+            </button>
+        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-8 col-lg-9">
+                <div class="row blog-post">
+                    <div class="col-sm-6">
+                        <div class="hover-content">
+                          <iframe width="420" height="215" src="https://www.youtube.com/embed/GqsWKaR9Q6M"
+                                    frameborder="0" allowfullscreen></iframe>
+
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" title="Read all article">
+                            <h2>Funzz Tour</h2>
+                        </a>
+                        <p>When tourists come to Jaffna. They are facing many problems to find
+accommodation, food, and transportation. Because of theses, the
+number of tourists who visit Jaffna are decreasing day by day. So with
+the help of this project. I’m expecting that the tourism will be improved
+in Jaffna.</p>
+                        <a href="choose.html" title="Read all article" class="btn btn-default-trn-v2">
+                            <i class="fa fa-angle-right"></i>Read More
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row blog-post">
+                    <div class="col-sm-6">
+                        <div class="hover-content">
+                            <iframe width="420" height="215" src="https://www.youtube.com/embed/GqsWKaR9Q6M"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" title="Read all article">
+                            <h2>Mauris quis nibh ut</h2>
+                        </a>
+                        <p>When tourists come to Jaffna. They are facing many problems to find
+accommodation, food, and transportation. Because of theses, the
+number of tourists who visit Jaffna are decreasing day by day. So with
+the help of this project. I’m expecting that the tourism will be improved
+in Jaffna.</p>
+                        <a href="choose.html" title="Read all article" class="btn btn-default-trn-v2">
+                            <i class="fa fa-angle-right"></i>Read More
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row blog-post wow fadeInUp">
+                    <div class="col-sm-6 ">
+                        <div class="hover-content">
+                            <iframe width="420" height="215" src="https://www.youtube.com/embed/GqsWKaR9Q6M"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" title="Read all article">
+                            <h2>Mauris quis nibh ut</h2>
+                        </a>
+                        <p>Mauris quis nibh ut odio ullamcorper volutpat. Aenean quam ante, tristique et euismod
+                            faucibus, mollis in elit. Nulla sollicitudin hendrerit sapien vel accumsan.</p>
+                        <a href="choose.html" title="Read all article" class="btn btn-default-trn-v2">
+                            <i class="fa fa-angle-right"></i>Read More
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row blog-post wow fadeInUp">
+                    <div class="col-sm-6">
+                        <div class="hover-content">
+                            <iframe width="420" height="215" src="https://www.youtube.com/embed/GqsWKaR9Q6M"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" title="Read all article">
+                            <h2>Mauris quis nibh ut</h2>
+                        </a>
+                        <p>Mauris quis nibh ut odio ullamcorper volutpat. Aenean quam ante, tristique et euismod
+                            faucibus, mollis in elit. Nulla sollicitudin hendrerit sapien vel accumsan.</p>
+                        <a href="choose.html" class="btn btn-default-trn-v2" title="Read all article">
+                            <i class="fa fa-angle-right"></i>Read More
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row blog-post wow fadeInUp">
+                    <div class="col-sm-6">
+                        <div class="hover-content">
+                            <iframe width="420" height="215" src="https://www.youtube.com/embed/GqsWKaR9Q6M"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" title="Read all article">
+                            <h2>Mauris quis nibh ut</h2>
+                        </a>
+                        <p>Mauris quis nibh ut odio ullamcorper volutpat. Aenean quam ante, tristique et euismod
+                            faucibus, mollis in elit. Nulla sollicitudin hendrerit sapien vel accumsan.</p>
+                        <a href="choose.html" title="Read all article" class="btn btn-default-trn-v2">
+                            <i class="fa fa-angle-right"></i>Read More
+                        </a>
+                    </div>
+
+                </div>
+                <div class="text-center">
+                    <ul class="pagination ">
+                        <li>
+                            <a href="#">&laquo;</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li>
+                            <a href="#">5</a>
+                        </li>
+                        <li>
+                            <a href="#">&raquo;</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 hidden-sm hidden-xs">
+                <div class="simple-box ">
+
+                    <div class="input-group form-lg " role="search">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+            <button class="btn btn-primary" title="Search" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+                    </div>
+
+
+                </div>
+
+                <div class="categories simple-box">
+                    <h3>Categories</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category Business">Business</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category photos">Photo</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category Education">Education</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category Music">Music</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw"></i>
+                            <a href="#" title="Category Movies">Movies</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-angle-right fa-fw "></i>
+                            <a href="#" title="Category Internet">Internet</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="simple-box">
+                    <h3>Subscribe Us</h3>
+                    <div class="input-group icon">
+                        <div class="control">
+                            <input type="text" class="form-control" placeholder="Email Address">
+                            <i class="fa fa-bullhorn"></i>
+                        </div>
+                        <span class="input-group-btn">
+            <button class="btn btn-primary only-icon " type="button">
+                <i class="fa fa-check"></i>
+            </button>
+        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Services section -->
+<!--<section class="section-lg bg-grey">
+    <div class="container">
+        <div class="row">
+            <h2 class="lg-title lg-title-border">What we do?</h2>
+            &lt;!&ndash;fadeInLeft&ndash;&gt;
+            <div class=" col-sm-6 wow fadeInLeft">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam sapien elit, consequat eget,
+                    tristique non. Venenatis quis ante. Curabitur ligula sapien.</p>
+                <p>Pulvinar a vestibulum quis, facilisis vel sapien. Cum sociis natoque penatibus et magnis dis
+                    parturient montes.</p>
+                <div class="space-sm"></div>
+                <ul class="info-list md-list style i-primary">
+                    <li>
+                        <i class="fa fa-play"></i>Pellentesque pretium lectus id.
+                    </li>
+                    <li>
+                        <i class="fa fa-play"></i>Excepteur sint occaecat cupidatat non.
+                    </li>
+                    <li>
+                        <i class="fa fa-play"></i>Aliquam erat volutpat ufsce.
+                    </li>
+                    <li>
+                        <i class="fa fa-play"></i>Vestibulum fermentum tortor id mi.
+                    </li>
+                </ul>
+                <div class="space visible-xs"></div>
+            </div>
+
+            <div class="col-sm-6 wow fadeInRight">
+                <img class="img-mw450" src="assets/img/Showcase-Template-Flat-Presentation-Vol-3-portfolio.png"
+                     alt="Flat showcase presentation">
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<!-- Our works/ projects section -->
+<!--<section class="section-lg">
+    <div class="container">
+
+        <h2 class="lg-title lg-title-border">Our work</h2>
+
+        <ul class="filter-tabs">
+            <li class="filter active" data-filter="mix"><span>All</span>
+            </li>
+            <li class="filter" data-filter="apps"><span>Application</span>
+            </li>
+            <li class="filter" data-filter="devices"><span>Devices</span>
+            </li>
+            <li class="filter" data-filter="web"><span>Webdesign</span>
+            </li>
+        </ul>
+
+        <ul class="row  filter-grid-v2" id="Grid">
+            &lt;!&ndash; Item 1 &ndash;&gt;
+            <li class="col-md-4 col-sm-6 mix devices ">
+                <a href="portfolio-item-v2.html" title="View portfolio item">
+                    <div class="hover-content wow easeUp" data-wow-delay="0.5s">
+                        <img src="assets/img/sign-up-sketch.jpg" class="img-responsive" alt="Portfolio - application">
+                        <div class="top-part hidden-xs">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="bottom-part hidden-xs">
+                            <h3>Some Title</h3>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            &lt;!&ndash; mix - select all, devices - filter only devices &ndash;&gt;
+
+            &lt;!&ndash; Item 2 &ndash;&gt;
+            <li class="col-md-4 col-sm-6 mix apps web ">
+                <a href="portfolio-item-v2.html" title="View portfolio item">
+                    <div class="hover-content wow easeUp" data-wow-delay="0.25s">
+                        <img src="assets/img/minimal-wireframe-assets.jpg" class="img-responsive" alt="Websites Layout">
+                        <div class="top-part hidden-xs">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="bottom-part hidden-xs">
+                            <h3>Some Title</h3>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            &lt;!&ndash; Item 3 &ndash;&gt;
+            <li class="col-md-4 col-sm-6 mix apps ">
+                <a href="portfolio-item-v2.html" title="View portfolio item">
+                    <div class="hover-content wow easeUp" data-wow-delay="0.75s">
+                        <img src="assets/img/App-Preview.jpg" class="img-responsive" alt="Portfolio - application">
+                        <div class="top-part hidden-xs">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="bottom-part hidden-xs">
+                            <h3>Some Title</h3>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            &lt;!&ndash; Item 4 &ndash;&gt;
+            <li class="col-md-4 col-sm-6 mix devices ">
+                <a href="portfolio-item-v2.html" title="View portfolio item">
+                    <div class="hover-content wow easeUp" data-wow-delay="0.6s">
+                        <img src="assets/img/macbook.jpg" class="img-responsive" alt="Apple Macbook Pro">
+                        <div class="top-part hidden-xs">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="bottom-part hidden-xs">
+                            <h3>Some Title</h3>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            &lt;!&ndash; Item 5 &ndash;&gt;
+            <li class="col-md-4 col-sm-6 mix web ">
+                <a href="portfolio-item-v2.html" title="View portfolio item">
+                    <div class="hover-content wow easeUp" data-wow-delay="0.35s">
+                        <img src="assets/img/webdesign.jpg" class="img-responsive" alt="Webdesign">
+                        <div class="top-part hidden-xs">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="bottom-part hidden-xs">
+                            <h3>Some Title</h3>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+            &lt;!&ndash; Item 6 &ndash;&gt;
+            <li class="col-md-4 col-sm-6 mix apps ">
+                <a href="portfolio-item-v2.html" title="View portfolio item">
+                    <div class="hover-content wow easeUp" data-wow-delay="0.85s">
+                        <img src="assets/img/app-screen.jpg" class="img-responsive" alt="application">
+                        <div class="top-part hidden-xs">
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="bottom-part hidden-xs">
+                            <h3>Some Title</h3>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</section>-->
+
+<!--<div class="bg-11 bg-cover bg-center">
+    <div class="section-lg bg-filter-v2">
+        <div class="container">
+            <div id="testimonial" class="carousel slide" data-ride="carousel" data-interval="9000">
+                &lt;!&ndash; Wrapper for slides &ndash;&gt;
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="testimonial">
+
+                            <p>"It’s just brilliant. I will recommend the product to everyone I know!"</p>
+                            <div class="space-sm"></div>
+                            <em>- Nicola Perry</em>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial">
+                            <p>
+                                "What a product. Why didn’t someone think of it sooner?"
+                            </p>
+                            <div class="space-sm"></div>
+                            <em>- Jack Brown</em>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial">
+                            <p>
+                                "I’ve bought it and now think perhaps I should have invested!""
+                            </p>
+                            <div class="space-sm"></div>
+                            <em>- Ben Berry</em>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimonial">
+                            <p>
+                                "What a product. Why didn’t someone think of it sooner?"
+                            </p>
+                            <div class="space-sm"></div>
+                            <em>- Adele Taylor</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<!-- Pricing tables -->
+<div id="get-started"></div>
+<!--<section class="section">
+    <div class="container">
+        <h2 class="lg-title lg-title-border">Our plans</h2>
+        <div class="space-sm"></div>
+        <div class="row">
+            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                <div class="panel panel-default prices first">
+                    <div class="panel-body">
+                        <i class="fa fa-paper-plane icon-u"></i>
+
+                        <h2 class="val">$15
+                            <small>/month</small>
+                        </h2>
+
+                        <ul class="info-list md-list primary">
+                            <li>
+                                <span>5Gb</span>Storage
+                            </li>
+                            <li>
+                                <span>1</span>Email account
+                            </li>
+                            <li>
+                                <span>2</span>Hosted domains
+                            </li>
+                            <li>
+                                <span>24/7</span>Email support
+                            </li>
+                        </ul>
+                        <div class="space-md"></div>
+                        <a href="#" class="btn btn-default">Start Trial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+                <div class="panel panel-default prices  bg-primary">
+                    <div class="panel-body ">
+                        <div class="ribbon">Favorite</div>
+
+                        <i class="fa fa-plane icon-u"></i>
+
+                        <h2 class="val">$30
+                            <small>/month</small>
+                        </h2>
+
+                        <ul class="info-list md-list default">
+                            <li>
+                                <span>20Gb</span>Storage
+                            </li>
+                            <li>
+                                <span>10</span>Email account
+                            </li>
+                            <li>
+                                <span>15</span>Hosted domains
+                            </li>
+                            <li>
+                                <span>24/7</span>Email support
+                            </li>
+                        </ul>
+                        <div class="space-md"></div>
+                        <a href="#" class="btn btn-default-trn">Start Trial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.6s">
+                <div class="panel panel-default prices last">
+                    <div class="panel-body">
+                        <i class="fa fa-rocket icon-u"></i>
+
+                        <h2 class="val">$50
+                            <small>/month</small>
+                        </h2>
+
+                        <ul class="info-list md-list primary">
+                            <li>
+                                <span>100Gb</span>Storage
+                            </li>
+                            <li>
+                                <span>20</span>Email account
+                            </li>
+                            <li>
+                                <span>25</span>Hosted domains
+                            </li>
+                            <li>
+                                <span>24/7</span>Email support
+                            </li>
+                        </ul>
+                        <div class="space-md"></div>
+                        <a href="#" class="btn btn-default">Start Trial</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>-->
+
+<!-- Breaking news -->
+<!--<section class="section bg-grey">
+    <div class="container">
+        <h2 class="lg-title lg-title-border">Breaking news</h2>
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.8s">
+                <div class="news">
+                    <img class="img-responsive" src="assets/img/768w/011.jpg" alt="camera">
+                    <h3>Post title</h3>
+                    <em>January 26, 2014 by John</em>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis condimentum augue id magna semper
+                        rutrum. In enim a arcu imperdiet malesuada.</p>
+                    <a href="blog-page.html" class="btn btn-default-trn-v2">Read more
+                        <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.6s">
+                <div class="news">
+                    <img class="img-responsive" src="assets/img/768w/31f6.JPG" alt="macbook">
+                    <h3>Post title</h3>
+                    <em>January 10, 2014 by Ben</em>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis condimentum augue id magna semper
+                        rutrum. In enim a arcu imperdiet malesuada.</p>
+                    <a href="blog-page.html" class="btn btn-default-trn-v2">Read more
+                        <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.4s">
+                <div class="news">
+                    <img class="img-responsive" src="assets/img/768w/picjumbo.com.jpg" alt="devices">
+                    <h3>Post title</h3>
+                    <em>December 27, 2013 by Nicole</em>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis condimentum augue id magna semper
+                        rutrum. In enim a arcu imperdiet malesuada.</p>
+                    <a href="blog-page.html" class="btn btn-default-trn-v2">Read more
+                        <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="news">
+                    <img class="img-responsive" src="assets/img/768w/macbook-air.jpg" alt="macbook">
+                    <h3>Post title</h3>
+                    <em>December 13, 2013 by Adele</em>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis condimentum augue id magna semper
+                        rutrum. In enim a arcu imperdiet malesuada.</p>
+                    <a href="blog-page.html" class="btn btn-default-trn-v2">Read more
+                        <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>-->
+<!--===/END    MAIN WRAP     ===-->
+
+
+<!--===    SCRIPTS     ===-->
+
+<!--Back to top-->
+<a href="#" class="back-to-top">
+    <i class="fa fa-angle-up"></i>
+</a>
+
+<!-- Modernizr -->
+<script src="assets/js/min/modernizr.custom.min.js"></script>
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap Plugin - open dropdown on hover -->
+<script src="assets/js/min/bootstrap-hover-dropdown.min.js"></script>
+
+<!-- LESS preprocessor -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.4/less.min.js"></script>
+
+<!-- WOW.js - loading animations -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.6/wow.min.js"></script>
+
+<!-- Knobs - our skills -->
+<script src="http://cdn.jsdelivr.net/jquery.knob/1.2.9/jquery.knob.min.js"></script>
+
+<!-- Slippry - Slideshow -->
+<script src="assets/js/min/slippry.min.js"></script>
+
+<!-- Mixitup plugin - Portfolio Filter Grid -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"></script>
+
+<!-- Make sticky whatever elements -->
+<script src="http://cdn.jsdelivr.net/jquery.sticky/1.0.0/jquery.sticky.min.js"></script>
+
+<!-- Smooth sroll -->
+<script src="http://cdn.jsdelivr.net/jquery.nicescroll/3.5.4/jquery.nicescroll.min.js"></script>
+
+<!-- Contact Form -->
+<script src="assets/js/min/contact-form.min.js"></script>
+
+<!-- Must be last of all scripts -->
+<script src="assets/js/min/scripts.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!--===/END    SCRIPTS     ===-->
+
+
+<!--===    SIDEBAR     ===-->
+
+<!--===/END    SIDEBAR     ===-->
+
+<!--===    FOOTER     ===-->
+<footer class="footer">
+    <div class="footer-bottom">
+        <div class="container">
+            <p>© 2017 Techoverflow. All rights reserved. Designed by SemiCol.</p>
+        </div>
+    </div>
+</footer>
+<!--===/END    FOOTER     ===-->
+
+</body>
+
+</html>

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html lang="en" class="js-no ie9"> <![endif]-->
+<!--[if IE 10]>
+<html lang="en" class="js-no ie10"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Welcome to TechOverFlow</title>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Jiri Cermak">
+
+    <!--  Boostrap Framework  -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--=== CSS - Dragonfly ===-->
+    <link href="assets/css/themes/light-blue.css" rel="stylesheet" id="colors">
+
+    <!--=== LESS - Dragonfly ===-->
+    <!--<link href="assets/less/main.less" rel="stylesheet/less">-->
+
+    <!-- Google Fonts - Lato -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS Animations -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet">
+
+    <!--  Slippry Slideshow -->
+    <link href="assets/css/slippry.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        .modal {
+            text-align: center;
+            padding: 0!important;
+        }
+
+        .modal:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            margin-right: -4px;
+        }
+
+        .modal-dialog {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+
+<!--===    NAVBAR     ===-->
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation" id="navbarSettings">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" style="height: 40px; margin-top: -15px">
+                Tech<span class="text-primary">Overflow</span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right ">
+
+                <!--Home Pages -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                       data-delay="0">Home
+                    </a>
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="sign-in.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                       data-delay="0">Login
+                    </a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="post-idea.html" style="color: white" class="dropdown-toggle btn btn-primary scroll"
+                       data-toggle="dropdown"
+                       data-hover="dropdown"
+                       data-delay="0">
+                        POST YOUR IDEA
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- If navbar is fixed to top and it has the class navbar-default or navbar-inverse this div will add space below the navbar-->
+<div id="navbarSpaceBottom"></div>
+<!--===/END    Navbar     ===-->
+
+
+<!--===    HEADER     ===-->
+<section class="bg-15 bg-center bg-cover">
+    <div class="bg-filter">
+        <div class="container section-lg">
+            <h1 class="top-title">Funzz Tour</h1>
+        </div>
+    </div>
+</section>
+<!--===/END      HEADER     ===-->
+
+
+<!--===    MAIN WRAP     ===-->
+<section class="section">
+    <div class="container">
+        <div class="post-header">
+            <div class="space-sm visible-xs"></div>
+            <img class="img-responsive" src="assets/img/4to.jpg" alt="Photo of post">
+            <div class="post-heading hidden-xs">
+                <h2>Title of article</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce tellus odio, dapibus id
+                    fermentum quis, suscipit id erat. Mauris metus. Maecenas aliquet accumsan leo. Fusce tellus. Duis
+                    pulvinar. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                    nisi ut aliquid ex ea commodi consequatur? Duis pulvinar.</p>
+
+            </div>
+        </div>
+        <div class="article-info">
+            <ul class="square-icons share-icons-list pull-right">
+                <li>
+                    <a href="#" title="Share">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Share">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Share">
+                        <i class="fa fa-tumblr"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Share">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Share">
+                        <i class="fa fa-pinterest"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Share">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Share">
+                        <i class="fa fa-dribbble"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="md-title">Problem</h3>
+
+
+            <p class="text-block-v1">
+When tourists come to Jaffna. They are facing many problems to find
+accommodation, food, and transportation. Because of theses, the
+number of tourists who visit Jaffna are decreasing day by day. So with
+the help of this project. I’m expecting that the tourism will be improved
+in Jaffna.</p>
+
+
+            <div class="space"></div>
+
+            <h3 class="md-title">Solution :-</h3>
+            <p class="text-block-v1">To increase tourism in Jaffna. We have to solve the tourists’ problems.
+This will create a curiosity into tourists to visit Jaffna. I’ll hope that this
+will enhance our tourism in Jaffna and also our local products values
+will be increased. In our web app, tourists who are wishing to visit
+Jaffna can log in and they can choose what places they want to visit,
+where to stay, which food items they want and which transport mode
+they want (car, van, bus). And also there is a facility that is If you select
+a place in our app, our app will show the hotels, restaurants, tourists
+places and transport methods to get that place. And if they finalise their
+details we can do these facilities to them from their reach up to their
+return. They have to pay for this. By this, I hope that the tourism will
+have a development in Jaffna.</p>
+
+        </div>
+        <div class="space"></div>
+
+        <div style="text-align: center;">
+            <a class="btn btn-primary" style="font-size: 30px" data-toggle="modal" data-target="#exampleModal1">
+                <i class="fa fa-bolt"></i>Want to be a developer?
+            </a>
+        </div>
+
+
+
+        <div class="space"></div>
+        <div class="comment-box-1 icon">
+            <h3>Leave a Comment</h3>
+            <div class="row">
+                <div class="col-md-4">
+
+                    <form>
+                        <div class="form-group icon">
+                            <div class="control">
+                                <input type="text" class="form-control" placeholder="Full name" required>
+                                <i class="fa fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="form-group icon">
+                            <div class="control">
+                                <input type="email" class="form-control" placeholder="Enter email" required>
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                        </div>
+                        <button type="submit" class="hidden-xs hidden-sm btn btn-primary btn-block">
+                            <i class="fa fa-pencil"></i>Send Message
+                        </button>
+
+                    </form>
+                </div>
+                <div class="col-md-8">
+
+                    <div class="form-group icon">
+                        <div class="control">
+                            <textarea class="form-control" rows="8" placeholder="Message" required></textarea>
+                            <i class="fa fa-comment"></i>
+                        </div>
+                    </div>
+                    <button type="submit" class="visible-xs visible-sm btn btn-primary">
+                        <i class="fa fa-pencil"></i>Send Message
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div class="comment-box-3">
+            <div class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object" alt="64x64" src="assets/img/faces/face-23.jpg">
+                </a>
+                <div class="media-body">
+                    <div class="media-header">
+                        <h4 class="media-heading">
+                            <a href="#">Caroline Harrison</a>
+                        </h4>
+                        <small>
+                            <em class="media-body-time six" title="6:46 p.m.">5 minutes</em>
+                        </small>
+
+                    </div>
+                    <div class="media-body-text">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    </div>
+                    <div class="media-footer">
+                        <em>12</em>
+                        <a href="#">
+                            <i title="Like" class="fa  fa-thumbs-o-up"></i>
+                        </a>
+                        <a href="#" class="pull-right comment-box-3-reply" title="Reply">
+                            <i class="fa fa-reply"></i>Reply</a>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object" alt="64x64" src="assets/img/faces/face-17.jpg">
+                </a>
+                <div class="media-body">
+                    <div class="media-header">
+                        <h4 class="media-heading">
+                            <a href="#">Adele Taylor</a>
+                        </h4>
+                        <small>
+                            <em class="media-body-time six" title="May 2, 2013">May 2, 2013</em>
+                        </small>
+
+                    </div>
+                    <div class="media-body-text">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    </div>
+                    <div class="media-footer">
+                        <em>3</em>
+                        <a href="#">
+                            <i title="Like" class="fa  fa-thumbs-o-up"></i>
+                        </a>
+                        <a href="#" class="pull-right comment-box-3-reply" title="Reply">
+                            <i class="fa fa-reply"></i>Reply</a>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object" alt="64x64" src="assets/img/faces/face-12.jpg">
+                </a>
+                <div class="media-body">
+                    <div class="media-header">
+                        <h4 class="media-heading ">
+                            <a href="#">Ben Berry</a>
+                        </h4>
+                        <small>
+                            <em class="media-body-time six" title="May 2, 2013">May 2, 2013</em>
+                        </small>
+
+                    </div>
+                    <div class="media-body-text">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin
+                        commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    </div>
+                    <div class="media-footer">
+                        <em>9</em>
+                        <a href="#">
+                            <i title="Like" class="fa  fa-thumbs-o-up"></i>
+                        </a>
+                        <a href="#" class="pull-right comment-box-3-reply" title="Reply">
+                            <i class="fa fa-reply"></i>Reply</a>
+                    </div>
+
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" alt="64x64" src="assets/img/faces/face-24.jpg">
+                        </a>
+                        <div class="media-body">
+                            <div class="media-header">
+                                <h4 class="media-heading ">
+                                    <a href="#">Jack Brown</a>
+                                </h4>
+                                <small>
+                                    <em class="media-body-time six" title="May 2, 2013">May 2, 2013</em>
+                                </small>
+
+                            </div>
+                            <div class="media-body-text">
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                turpis.
+                            </div>
+                            <div class="media-footer">
+                                <em>2</em>
+                                <a href="#">
+                                    <i title="Like" class="fa  fa-thumbs-o-up"></i>
+                                </a>
+                                <a href="#" class="pull-right comment-box-3-reply" title="Reply">
+                                    <i class="fa fa-reply"></i>Reply</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--===/END    MAIN WRAP     ===-->
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title" id="exampleModalLabel">Registration Success</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Thank you for Registering to the system.</h4>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--===    SCRIPTS     ===-->
+
+<!--Back to top-->
+<a href="#" class="back-to-top">
+    <i class="fa fa-angle-up"></i>
+</a>
+
+<!-- Modernizr -->
+<script src="assets/js/min/modernizr.custom.min.js"></script>
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap Plugin - open dropdown on hover -->
+<script src="assets/js/min/bootstrap-hover-dropdown.min.js"></script>
+
+<!-- LESS preprocessor -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.4/less.min.js"></script>
+
+<!-- WOW.js - loading animations -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.6/wow.min.js"></script>
+
+<!-- Knobs - our skills -->
+<script src="http://cdn.jsdelivr.net/jquery.knob/1.2.9/jquery.knob.min.js"></script>
+
+<!-- Slippry - Slideshow -->
+<script src="assets/js/min/slippry.min.js"></script>
+
+<!-- Mixitup plugin - Portfolio Filter Grid -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"></script>
+
+<!-- Make sticky whatever elements -->
+<script src="http://cdn.jsdelivr.net/jquery.sticky/1.0.0/jquery.sticky.min.js"></script>
+
+<!-- Smooth sroll -->
+<script src="http://cdn.jsdelivr.net/jquery.nicescroll/3.5.4/jquery.nicescroll.min.js"></script>
+
+<!-- Contact Form -->
+<script src="assets/js/min/contact-form.min.js"></script>
+
+<!-- Must be last of all scripts -->
+<script src="assets/js/min/scripts.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!--===    FOOTER     ===-->
+<footer class="footer">
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p>© 2017 Techoverflow. All rights reserved. Designed by SemiCol.</p>
+        </div>
+    </div>
+</footer>
+<!--===/END    FOOTER     ===-->
+
+</body>
+
+</html>
